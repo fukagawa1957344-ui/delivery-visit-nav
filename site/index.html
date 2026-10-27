@@ -8,8 +8,8 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <link rel="stylesheet" href="styles.css?v=6">
-  <link rel="stylesheet" href="navigation.css?v=6">
+  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="navigation.css?v=7">
   <title>配送・訪問ナビ</title>
 </head>
 <body>
@@ -30,6 +30,7 @@
       <div id="map"></div>
       <div class="map-controls">
         <button id="layerButton" class="map-control" type="button">航空写真</button>
+        <button id="photoSourceButton" class="map-control photo-source-button" type="button" hidden>国土地理院写真に切替</button>
         <button id="locateButton" class="map-control round" type="button" aria-label="現在地">◎</button>
         <a class="map-control road-info-link" href="https://www.road-info-prvs.mlit.go.jp/roadinfo/" target="_blank" rel="noopener noreferrer" title="国土交通省の規制・路面情報（5～10分間隔で更新）" aria-label="国土交通省の道路規制・路面情報（5～10分間隔で更新）">規制情報 ↗</a>
       </div>
@@ -51,6 +52,6 @@
   </main>
   <div id="photoModal" class="modal" hidden><button id="closeModal" class="modal-close" aria-label="閉じる">×</button><img id="modalImage" alt="現場写真"><div id="modalCaption"></div></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="app.js?v=6" defer></script>
+  <script src="app.js?v=7" defer></script>
 </body>
 </html>
