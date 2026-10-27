@@ -1,0 +1,1 @@
+.navigation-options{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin-top:5px;min-height:20px}.navigation-options a{font-size:11px;color:#1d4ed8;font-weight:700;text-decoration:none}.navigation-options small{font-size:10px;color:#8993a2}.dark .navigation-options a{color:#93c5fd}.dark .navigation-options small{color:#a4afbf}
